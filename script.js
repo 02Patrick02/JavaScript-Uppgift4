@@ -18,13 +18,11 @@ function doCalculations(){
     lenght = Number(input1Element.value);
     width = Number(input2Element.value);
 
-
     area = lenght * width;
     resultElement.innerHTML = "<p>Rektangelns area blir " + area + "m<sup>2</sup>.</p>";
 
     area = 3.14159 * lenght * width / 4;
     resultElement.innerHTML += "<p>Elliepsens area blir " + area + "m<sup>2</sup>.</p>";
-
     
     area = (lenght * 1.5) * (width + 3);
     resultElement.innerHTML += "<p>Rektangelns area ökar med 50% bredd och 3 meter i längden där nya värdet blir: " + area + "m<sup>2</sup>.</p>";
